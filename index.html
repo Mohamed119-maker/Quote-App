@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Style/all.min.css">
+    <link rel="stylesheet" href="Style/bootstrap.min.css">
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+
+<body>
+    <section class=" text-center vh-100 d-flex justify-content-center align-items-center">
+        <div class="container text-white rounded-4 py-3">
+            <div class="row">
+                <div class="col-md-8 m-auto ">
+                    <h1>Quote of the Day</h1>
+                    <p class="parag1">Press the button below to recieve a random quote!</p>
+                    <hr>
+                    <div class="qouteArea">
+                        <i class="fas fa fa-quote-left"></i>
+                        <p class=" fs-4 my-4" id="quote">
+                            “Be who you are and say what you feel, because those who mind don't matter, and those who
+                            matter don't mind.”
+                        </p>
+                        <i class="fas fa fa-quote-right"></i>
+                    </div>
+
+                    <div class="d-flex justify-content-between align-items-center pt-3">
+                        <div class="icn d-flex gap-3">
+                            <li class="heart"><i class="fa-solid fa-heart"></i></li>
+                            <li class="sound"><i class="fa-solid fa-volume-high"></i></li>
+                            <li class="copy"><i class="fa-solid fa-copy"></i></li>
+                            <li class="twitter"><i class="fa-brands fa-twitter"></i></li>
+                        </div>
+                        <div class="authorInfo d-flex justify-content-center align-items-center">
+                            <img id="image" class="rounded-circle " src="img/5768330._UX200_CR0,30,200,200_.jpg"
+                                alt="author img">
+                            <p id="auotherName" class="m-0 ps-3">"― Bernard M. Baruch"</p>
+                        </div>
+                    </div>
+
+                    <hr>
+                    <button class="btn btn-outline-light px-4 py-2 fs-4 rounded-5">New
+                        Quote</button>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/index.js"></script>
+</body>
+
+</html>

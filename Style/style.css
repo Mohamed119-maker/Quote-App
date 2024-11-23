@@ -1,0 +1,75 @@
+section {
+    background-image: url(../img/space-desk-laptop-notebook.webp);
+    background-position: center center;
+    background-size: cover;
+}
+
+#auotherName,
+h1,
+.parag1 {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+
+.qouteArea {
+    display: flex;
+    justify-content: center;
+}
+
+.qouteArea i {
+    font-size: 15px;
+}
+
+.qouteArea i:first-child {
+    margin: 3px 10px 0 0;
+}
+
+.qouteArea i:last-child {
+    margin: 0 0 3px 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+section h1 {
+    padding-block: 15px;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 120px;
+}
+
+section .parag1 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+img {
+    width: 35px;
+}
+
+
+
+.icn li {
+    list-style: none;
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    border: white solid 1px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.icn li:hover {
+    background-color: white;
+    color: black;
+}
+
+.contain {
+    padding-top: 25px !important;
+}
